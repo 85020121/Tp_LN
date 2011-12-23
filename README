@@ -1,1 +1,32 @@
-Hello world
+********************************************************************
+** README
+** Members: Bowen GAO, Yacine DAHAK, Murat ALTUNTAS
+********************************************************************
+
+********************************************************************
+** Dependences
+**   -- nltk
+**   -- feedparser
+********************************************************************
+
+********************************************************************
+** Module
+**   -- RSSParser.py : parser the articles from given rss
+					   http://rss.lemonde.fr/c/205/f/3050/index.rss
+**   -- NameExtractor.py : Extraction the named entity from the articles,
+						   and stock them in a map<name,occurence>
+********************************************************************
+
+********************************************************************
+** Execution
+**   -- Extraction of the named entity from th corpus
+** 		   $ python extraction_Discours_Sarkozy.py
+**      the result will be saved in result_discours_Sarkozy.txt
+
+**   -- Extraction of the named entity from th corpus
+** 		   $ python extraction_RSS.py
+**      the result will be saved in result_RSS.txt with format:
+**			"named entity" shows x times in y documents
+********************************************************************
+      
+
